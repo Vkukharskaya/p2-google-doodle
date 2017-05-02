@@ -3,7 +3,10 @@ plant_google_doodle
 
 ## Overview 
 
+Short [Name of Link](http://) description of link. 
+
 ## References 
+[Name of Link](http://)
 
 ## Images for Moodboard 
 ![orchid](http://www.orchidcarenow.com/wp-content/uploads/2010/08/orchid-stem.jpg)
