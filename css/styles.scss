@@ -27,6 +27,7 @@ position: absolute;
 margin-top: 15px;
     margin-left: -260px;
 width: 85%;
+    t
 
 }
 
@@ -40,6 +41,8 @@ width: 85%;
 // First Frame
 
 
+
+
 .cls-16{
     
  animation-name: pulse; 
@@ -48,8 +51,9 @@ width: 85%;
  animation-direction: normal; 
  animation-timing-function: linear; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
  animation-fill-mode: backwards; /* or: backwards, both, none */
- animation-delay: .25s;
+ animation-delay: 2s;
 }
+
 
 
 
