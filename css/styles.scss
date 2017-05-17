@@ -1,6 +1,47 @@
+
+@import "normalize";
+@import "google-homepage";
+
+
 /* Styling */
 body {
-   
     background: white;
+}
+
+
+
+// Stage (Parent)
+#stage {
+    position: relative;
+    overflow: hidden;
+}
+
+
+// Child
+#Layer_1 {
+position: absolute;
+margin-top: 13px;
+    margin-left: -260px;
+width: 85%;
+
+
+    
+}
+
+// Child
+
+
+
+// Animations Go Here
+// First Frame
+#Layer_1 {
+    
+   
+}
+
+// Last Frame
+#Layer_1:hover {
+    
+    transform: rotate(25deg);
 }
 
