@@ -3,6 +3,9 @@
 @import "google-homepage";
 
 
+$google-center: #faf5b1;
+
+
 /* Styling */
 body {
     background: white;
@@ -14,6 +17,7 @@ body {
 #stage {
     position: relative;
     overflow: hidden;
+  
 }
 
 
@@ -24,9 +28,9 @@ margin-top: 13px;
     margin-left: -260px;
 width: 85%;
 
-
-    
 }
+
+
 
 // Child
 
@@ -34,14 +38,43 @@ width: 85%;
 
 // Animations Go Here
 // First Frame
-#Layer_1 {
+
+
+.cls-16:hover {
     
-   
+ animation-name: pulse; 
+ animation-duration: 2s; 
+ animation-iteration-count: 10;
+ animation-direction: normal; 
+ animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+ animation-fill-mode: forwards; /* or: backwards, both, none */
+ animation-delay: .25s;
 }
 
-// Last Frame
-#Layer_1:hover {
-    
-    transform: rotate(25deg);
+
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
 }
+
+.pulse {
+  animation-name: pulse;
+}
+
+
+
+// Last Frame
+
+
+
 
