@@ -24,7 +24,7 @@ body {
 // Child
 #Layer_1 {
 position: absolute;
-margin-top: 13px;
+margin-top: 15px;
     margin-left: -260px;
 width: 85%;
 
@@ -40,14 +40,14 @@ width: 85%;
 // First Frame
 
 
-.cls-16:hover {
+.cls-16{
     
  animation-name: pulse; 
- animation-duration: 2s; 
+ animation-duration: 3s; 
  animation-iteration-count: 10;
  animation-direction: normal; 
- animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
- animation-fill-mode: forwards; /* or: backwards, both, none */
+ animation-timing-function: linear; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+ animation-fill-mode: backwards; /* or: backwards, both, none */
  animation-delay: .25s;
 }
 
@@ -58,7 +58,7 @@ width: 85%;
     transform: scale3d(1, 1, 1);
   }
 
-  50% {
+  20% {
     transform: scale3d(1.05, 1.05, 1.05);
   }
 
